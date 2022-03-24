@@ -1,0 +1,76 @@
+*, * ::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #C5AEF2;
+    height: 100vh;
+    width: 100vw;
+}
+
+body > main{
+    padding:   0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 80%;
+    height: 250px;   
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.answer-btn-container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 5px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.answer-btn{
+    padding: 5px;
+    margin: 4px;
+    width: 50%;
+    border: 1px soli;
+}
+
+.answer-btn.correct {
+    background-color: #C5AEF2;
+}
+
+.answer-btn.wrong {
+    background-color: red;
+}
+
+.game-container{
+    width: 500px;
+    max-width: 80%;
+    height: auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.hide {
+    display: none;
+}
+
+
